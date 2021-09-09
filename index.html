@@ -1,14 +1,78 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Landing Page</title>
-    <link rel="stylesheet" href="./style/style.css">
-</head>
-<body>
-    <h1>hello world</h1>
-    <p>hello</p>
-</body>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;600;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./style/normalize.css" />
+    <link rel="stylesheet" href="./style/style.css" />
+  </head>
+  <body>
+    <article class="container">
+      <nav>
+        <a class="nav" href="#">
+          <img
+            src="./images/Logo.svg"
+            alt="logo with icon of scissor and text as snipper"
+          />
+        </a>
+        <a href="#" class="nav">
+          <img src="./images/HamburgerMenu.svg" alt="hamburger icon" />
+        </a>
+      </nav>
+      <article class="hero">
+        <h1 class="hero__heading">Gorgeous Code Snippets</h1>
+        <p class="hero__text">
+          With Snipper,create fully customizable code snippets in a matter of
+          seconds right from your browser
+        </p>
+        <button class="hero__button">
+          Get started<span class="inner__text">- it's free</span>
+        </button>
+        <p class="hero__text text2">No credit card required.</p>
+      </article>
+      <article class="hero__image">
+        <img src="./images/SnippetImage.webp" alt="" />
+      </article>
+    </article>
+    <article class="conatiner2">
+      <section class="body">
+        <img
+          class="body__image"
+          src="./images/CustomizableImage.webp"
+          alt=""
+        />
+      </section>
+      <section>
+        <h2 class="body__heading">A fully customizable code snippet editor</h2>
+        <p class="hero__text body__text">
+          Fully customize the color scheme of your code sbippet, or use our own
+          premade coloe schemes. Export your code snippet in JPG, PDF, PNF, or
+          any of the other 10+ common extensions
+        </p>
+        <button class="hero__button body__button">
+          Get started<span class="inner__text">- it's free</span>
+        </button>
+      </section>
+    </article>
+    <footer>
+      <a class="nav" href="#">
+        <img
+          src="./images/Logo.svg"
+          alt="logo with icon of scissor and text as snipper"
+        />
+      </a>
+      <section class="footer__foot">
+          <p class="hero__text body__text">Terms and Conditions</p>
+          <p class="hero__text body__text">Privacy policy</p>
+      </section>
+    </footer>
+  </body>
 </html>

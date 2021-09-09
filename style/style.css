@@ -1,3 +1,93 @@
-h1{
-    color: gold;
+html {
+    font-size: 62.5%;
+    font-family: 'Poppins', sans-serif;
+}
+
+.container{
+    background: url(../images/Background.webp) no-repeat;
+    margin-top: 0;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav{
+    margin: 3rem;
+}
+
+.hero__heading{
+    text-align: center;
+    font-size: 7rem;
+    font-weight: 800;
+}
+
+.hero__text{
+    font-size: 2rem;
+    text-align: center;
+    color: #383838;
+    margin: 2rem 1.5rem;
+}
+
+.text2{
+    margin-bottom: 7rem;
+}
+
+.hero__button{
+    font-size: 2rem;
+    font-weight: 600;
+    background-color: black;
+    color: white;
+    border-radius: 5px;
+    border: 0;
+    padding: 2rem;
+    width: 90%;
+    margin:0 auto;
+    display: block;
+}
+
+.inner__text{
+    font-weight: 300;
+    color: #adaeae;
+}
+
+.hero__image img{
+    width:90%;
+    margin: 0 auto;
+    display: block;
+}
+
+.body{
+    margin: 10rem 0 5rem;
+}
+
+.body__image{
+    width: 90%;
+    margin: 0 auto;
+    display: block;
+}
+
+
+.body__heading{
+    font-size: 4.2rem;
+    margin: 2rem
+}
+
+.body__text{
+    text-align: left;
+    margin-left: 2rem;;
+}
+
+.body__button{
+    width: 60%;
+    margin: 2rem;
+}
+
+footer{
+    margin-top: 7rem;
+}
+
+.footer__foot{
+    display: flex;
 }
