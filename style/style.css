@@ -3,6 +3,10 @@ html {
     font-family: 'Poppins', sans-serif;
 }
 
+button{
+    cursor: pointer;
+}
+
 .container{
     background: url(../images/Background.webp) no-repeat;
     margin-top: 0;
@@ -105,16 +109,13 @@ footer{
 
     .nav__search .hero__button{
         margin:0;
-        width: 100%;
+        flex-grow: 2;
+        margin-right: 1.5rem;
     }
 
     .signin{
-        padding-left:2rem;
-        padding-right:2rem;
-        margin-left: 1rem;
-        margin-right:1rem;
         font-size: 2rem;
-        width: 30%;
+        padding: 0 1.5rem;
     }
 
     .btn{
@@ -167,5 +168,9 @@ footer{
     }
     .container__content:nth-child(1){
         order:2;
+    }
+    .hero__button .body__button{
+        padding-left:1rem;
+        padding-right: 1rem;
     }
 }
