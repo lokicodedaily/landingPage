@@ -105,11 +105,16 @@ footer{
 
     .nav__search .hero__button{
         margin:0;
+        width: 100%;
     }
 
     .signin{
-        margin:0 1.5rem;
+        padding-left:2rem;
+        padding-right:2rem;
+        margin-left: 1rem;
+        margin-right:1rem;
         font-size: 2rem;
+        width: 30%;
     }
 
     .btn{
@@ -151,5 +156,16 @@ footer{
 
     .footer__foot p{
         font-size: 1.5rem;
+    }
+}
+
+@media screen and (min-width:1024px) {
+    .container2{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        align-items: center;
+    }
+    .container__content:nth-child(1){
+        order:2;
     }
 }
