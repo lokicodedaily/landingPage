@@ -17,6 +17,10 @@ nav {
     margin: 3rem;
 }
 
+.nav__search{
+    display: none;
+}
+
 .hero__heading{
     text-align: center;
     font-size: 7rem;
@@ -90,4 +94,62 @@ footer{
 
 .footer__foot{
     display: flex;
+}
+
+@media screen and (min-width: 768px) {
+
+    .nav__search{
+        display: flex;
+        align-items: center;
+    }
+
+    .nav__search .hero__button{
+        margin:0;
+    }
+
+    .signin{
+        margin:0 1.5rem;
+        font-size: 2rem;
+    }
+
+    .btn{
+        width: 30%;
+    }
+
+    .menu{
+        display: none;
+    }
+
+    .hero__heading{
+        font-size: 6.5rem;
+    }
+
+    .hero__text{
+        font-size: 1.5rem;
+    }
+
+    .hero__button{
+        width: 30%;
+        padding-left: 1rem;
+        padding-right: 1rem;
+    }
+
+    .body__image{
+        width: 70%;
+    }
+
+    .body__button{
+        width: 40%;
+        padding-left:0;
+        padding-right:0;
+    }
+    footer{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .footer__foot p{
+        font-size: 1.5rem;
+    }
 }
