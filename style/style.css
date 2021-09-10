@@ -90,6 +90,7 @@ nav {
 .body__button{
     width: 60%;
     margin: 2rem;
+    padding : 2rem 1rem;
 }
 
 footer{
